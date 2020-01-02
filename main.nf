@@ -5,7 +5,7 @@ bai_ch = file(params.bam + ".bai")
 command_file_ch = file(params.command_file)
 
 process create_snapshots {
-    container 'nkrumm/igv-screenshot'
+    container 'nkrumm/igv-nextflow:latest'
     echo true
 
     input:
