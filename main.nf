@@ -1,7 +1,7 @@
 #!/usr/bin/env nextflow
 
 params.bam = "../40502_B01_OPXv6_ND0364.final.bam"
-params.command_file = "commands.bat"
+params.command_file = "test/commands.bat"
 params.output = "."
 
 bam_ch = file(params.bam)
