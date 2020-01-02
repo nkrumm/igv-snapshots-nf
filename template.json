@@ -14,5 +14,11 @@
             "title": "Output Location (s3://)",
             "type": "string"
         }
-    }
+    },
+    "required": [
+        "bam",
+        "command_file",
+        "output"
+    ],
+    "type": "object"
 }
