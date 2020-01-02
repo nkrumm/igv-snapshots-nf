@@ -13,7 +13,6 @@
         "output": {
             "title": "Output Location (s3://)",
             "type": "string"
-        },
-        
+        }
     }
 }
