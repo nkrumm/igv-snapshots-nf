@@ -1,0 +1,19 @@
+{
+    "properties": {
+        "bam": {
+            "default": "s3://uwlm-ngs-data/targeted/opx/bams/2019/191227_ND0364_OncoPlexKAPA405-OPXv6/sample/40502_B01_OPXv6_ND0364/40502_B01_OPXv6_ND0364.final.bam",
+            "title": "Source BAM File",
+            "type": "string"
+        },
+        "command_file": {
+            "default": "s3://uwlm-personal/nkrumm/commands.bat",
+            "title": "IGV Command File",
+            "type": "string"
+        },
+        "output": {
+            "title": "Output Location (s3://)",
+            "type": "string"
+        },
+        
+    }
+}
